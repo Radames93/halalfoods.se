@@ -115,7 +115,8 @@ button {
 }
 
 :root {
-  --colorPrimary: #1a5f30;
+  --colorPrimary: #1d5d32;
+  --colorSecondary: #7cfc00;
   --colorRed: #eb0029;
   --paraColor: #484747;
   --colorBlack: #231f40;
@@ -2574,7 +2575,7 @@ footer {
 
 .breadcrumb_text ul li:last-child a {
   padding-right: 0;
-  color: #32cd32 !important;
+  color: var(--colorSecondary) !important;
 }
 
 .breadcrumb_text ul li:last-child a::after {
@@ -3126,7 +3127,7 @@ footer {
   top: 50%;
   left: 0;
   transform: translateY(-50%);
-  background: #45ff0826;
+  background: #ff7c082e;
   color: var(--colorPrimary);
   border-right: 1px solid #e4e7e9;
   -webkit-transform: translateY(-50%);
