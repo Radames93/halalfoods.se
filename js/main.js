@@ -384,6 +384,7 @@ function Header() {
               <li><a href="premium_menu.html">Premium</a></li> 
             </ul>
           </li>
+          <!--
            <li class="nav-item">
             <a class="nav-link" href="#"
               >Våra tjänster <i class="far fa-angle-down"></i
@@ -394,6 +395,7 @@ function Header() {
               <li><a href="events.html">Evenemang</a></li>
             </ul>
           </li>
+          -->
           <!--
             <li class="nav-item">
               <a class="nav-link" href="subscription.html">Prenumerationer</a>

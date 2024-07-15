@@ -6,13 +6,20 @@
       name="viewport"
       content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, target-densityDpi=device-dpi"
     />
-    <title>YumFoods</title>
+    <title>HalalFoods</title>
     <link
       rel="icon"
       type="image/png"
       sizes="32x32"
       href="images/favicon-32x32.png"
     />
+    <link
+      href="./webfonts/DINNeuzeitGroteskStd-BdCond.otf"
+      type="font/otf"
+      crossorigin="anonymous"
+    />
+    <link rel="preload" as="image" href="./images/index.png" />
+    <link rel="preload" as="image" href="./images/mobilIndex.png" />
     <link rel="stylesheet" href="css/slick.css" />
     <link rel="stylesheet" href="css/all.min.css" />
     <link rel="stylesheet" href="css/bootstrap.min.css" />
@@ -39,17 +46,23 @@
     ==============================-->
     <section class="banner">
       <div class="banner_overlay">
-        <div class="col-12">
-          <div class="banner_slider">
-            <div class="banner_slider_overlay">
-              <div id="hero" class="hero">
-                <div class="hero-box">
-                  <h1 class="hero-header">YUM FOODS</h1>
-                  <p class="hero-text">LITE BILLIGARE, LIKA YUM</p>
-                </div>
+        <div class="banner_slider">
+          <div class="banner_slider_overlay">
+            <div
+              class="hero"
+              style="
+                background-image: url('../images/index.png');
+                background-size: cover;
+              "
+              alt="hero-image"
+            >
+              <div class="hero-box">
+                <h1 class="hero-header">HALAL FOODS</h1>
+                <p class="hero-text">LITE BILLIGARE, LIKA YUM</p>
               </div>
             </div>
-            <!--
+          </div>
+          <!--
                 <div class="vector_item_box">
                   <input
                     onclick="location.href = 'sign_in.html';"
@@ -65,7 +78,6 @@
                   />
                 </div>
                 -->
-          </div>
         </div>
       </div>
     </section>
@@ -88,7 +100,7 @@
                 <a href="baguette_menu.html" tabindex="0">
                   <img
                     src="./images/category/baguettercategory.png"
-                    alt="kategori-baguetter"
+                    alt="kategori-yum-rätter"
                     class="img-fluid w-100"
                 /></a>
               </div>
@@ -252,16 +264,14 @@
           <div class="col-xl-3 wow fadeInUp" data-wow-duration="1s">
             <div class="single_team">
               <div class="single_team_img_services">
-                <a href="office.html" tabindex="0">
-                  <img
-                    src="images/12.png"
-                    alt="kontor-bild"
-                    class="img-fluid w-100"
-                  />
-                </a>
+                <img
+                  src="images/12.png"
+                  alt="kontor-bild"
+                  class="img-fluid w-100"
+                />
               </div>
               <div class="single_team_text">
-                <a href="office.html" tabindex="0"><h4>OFFICE</h4></a>
+                <h4>OFFICE</h4>
                 <p>Daglig / Gruppbeställningar</p>
               </div>
             </div>
@@ -269,15 +279,14 @@
           <div class="col-xl-3 wow fadeInUp" data-wow-duration="1s">
             <div class="single_team">
               <div class="single_team_img_services">
-                <a href="private.html" tabindex="0">
-                  <img
-                    src="images/private.png"
-                    alt="privat-bild"
-                    class="img-fluid w-100"
-                /></a>
+                <img
+                  src="images/private.png"
+                  alt="privat-bild"
+                  class="img-fluid w-100"
+                />
               </div>
               <div class="single_team_text">
-                <a href="private.html" tabindex="0"><h4>PRIVAT</h4></a>
+                <h4>PRIVAT</h4>
                 <p>Familjbeställningar</p>
               </div>
             </div>
@@ -285,15 +294,14 @@
           <div class="col-xl-3 wow fadeInUp" data-wow-duration="1s">
             <div class="single_team">
               <div class="single_team_img_services">
-                <a href="events.html" tabindex="0">
-                  <img
-                    src="images/events.png"
-                    alt="evenemang-bild"
-                    class="img-fluid w-100"
-                /></a>
+                <img
+                  src="images/events.png"
+                  alt="evenemang-bild"
+                  class="img-fluid w-100"
+                />
               </div>
               <div class="single_team_text">
-                <a href="events.html" tabindex="0"><h4>EVENEMANG</h4></a>
+                <h4>EVENEMANG</h4>
                 <p>Beställ för dina speciella händelse</p>
               </div>
             </div>
@@ -499,6 +507,6 @@
     <script src="js/jquery.exzoom.js"></script>
 
     <!--main/custom js-->
-    <script src="js/main.js"></script>
+    <script rel="preload" src="js/main.js"></script>
   </body>
 </html>

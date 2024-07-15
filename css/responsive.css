@@ -672,7 +672,7 @@
     text-align: center;
     font-size: 120px;
     font-family: "DIN";
-    color: #fe4a0f;
+    color: #1d5d32;
     height: 130px;
   }
 
@@ -1189,7 +1189,7 @@
       text-align: center;
       font-size: 100px;
       font-family: "DIN";
-      color: #fe4a0f;
+      color: #1d5d32;
     }
 
     .banner_title {
@@ -2519,7 +2519,7 @@
     text-align: center;
     font-size: 120px;
     font-family: "DIN";
-    color: #fe4a0f;
+    color: #1d5d32;
     height: 130px;
   }
 
@@ -3372,12 +3372,11 @@
     display: flex;
     flex-direction: column;
     margin-top: /*120*/ 100px;
-    background-image: url("../images/index.png");
     align-self: center;
     background-repeat: no-repeat;
-    background-size: contain;
-    background-position: calc(100% - 0px) calc(100% - 75%);
-    height: 30vh;
+    background-size: contain !important;
+    background-position: calc(100% - 0px) calc(100% - 80%) !important;
+    height: 200px !important;
     align-items: center;
     justify-content: space-around;
   }
@@ -3392,7 +3391,7 @@
     text-align: center;
     font-size: 68px;
     font-family: "DIN";
-    color: #fe4a0f;
+    color: #1d5d32;
     height: 70px;
   }
 
