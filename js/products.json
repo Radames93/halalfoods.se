@@ -1,16 +1,6 @@
 {
   "yum": [
     {
-      "id": 1,
-      "category": "Yum",
-      "img": "images/yum/Jakob.png",
-      "title": "'Flygande jacob'",
-      "price": "75",
-      "diet": ["images/icons/chicken.png"],
-      "description": "'En svensk maträtt med kyckling, bananer, och jordnötter, gratinerad i ugnen med grädde och chilisås.'",
-      "ingredients": "'Strimlad kyckling(Kyckling (83%), vatten, salt, tapiokastärkelse, stabiliseringsmedel(ESOO, E331), dextros, d-xylos, olja av SOJABÖNOR), bacon (Sidfläsk från gris (86 %), vatten, salt, glukossirap, stabiliseringsmedel (difosfat), köttbuljong (frän gris), antioxidationsmedel (natriumaskorbat, natriumcitrat), druvsocker, konserveringsmedel (natriwnnitrit), rökarom), laktosfri mat1agningsgrädde(GRÅDDE, vatten, modifierad majs och tapiokastärkelse), chilisäs(Tomatpuré (motsvarande 186 g tomater/100 g chilisås), krossade tomater ( 40 %), socker, ättika, salt, vinäger, lök, kryddor (bl.a. cayennepeppar, vitlökspulver, kryddnejlika, ingefära, chilipeppa r), surbetsreglerande medel (citronsyra), konserveringsmedel (kaliumsorbat, natriumbensoat), örtkryddor.), bananchips(Bananer torkade, kokosolja, socker, honung), kycklingfond(Vatten, salt, arom (innehåller SELLERI), kycklingextrakt, socker, modifierad potatisstärkelse, kycklingfett, kycklingkött, syra (citronsyra), konserveringsmeclel (kaliumsorbat), dragonextrakt) salt, svartpeppar, majsstärkelse, ris. KYLVARA +8 grader'"
-    },
-    {
       "id": 2,
       "category": "Yum",
       "img": "images/yum/Grilladkyckling.png",
